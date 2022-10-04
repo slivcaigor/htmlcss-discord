@@ -18,7 +18,7 @@ body {
 .header-bg {
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  height: 650px;
+  padding-bottom: 150px;
 }
 
 /* Main Nav Styling */
