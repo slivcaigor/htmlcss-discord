@@ -198,7 +198,7 @@ footer {
 
 .footer-col {
   padding: 0 15px;
-  line-height: 2rem;
+  line-height: 2.2rem;
 }
 
 .footer-col h4 {
@@ -213,11 +213,14 @@ footer {
 }
 
 .footer-col h3 {
+  width: 70%;
   font-size: 30px;
   color: rgb(114, 137, 218);
+  padding-bottom: 15px;
 }
 
 .social-links {
+  padding-top: 10px;
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -231,7 +234,7 @@ footer {
 }
 
 .footer-col img {
-  padding-top: 15px;
+  vertical-align: middle;
   width: 7%;
 }
 
@@ -243,19 +246,19 @@ footer {
 
 .spacing {
   padding-top: 20px;
-  border-bottom: solid 2px rgb(114, 137, 218);
+  border-bottom: solid 1px rgb(114, 137, 218);
 }
 
 #register {
   background-color: rgb(114, 137, 218);
   color: white;
   text-decoration: none;
-  font-size: 18px;
-  padding: 8px;
+  font-size: 15px;
+  padding: 9px 13px 10px;
   border-radius: 30px;
+  align-self: center;
 }
 
 #logo-footer {
-  width: 100px;
-  align-self: center;
+  width: 100%;
 }
