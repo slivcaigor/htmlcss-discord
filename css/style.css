@@ -114,9 +114,8 @@ body {
 /* Sections with img styling */
 
 .content-row img {
-  max-width: 50%;
+  max-width: 100%;
   padding: 50px;
-  align-self: center;
 }
 
 .content-row {
@@ -129,14 +128,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
 }
 
 .content-row-text {
+  width: 70%;
   font-size: 50px;
+  font-weight: 700;
 }
 
 .content-row-subheading {
   font-size: 20px;
+  width: 70%;
+  font-weight: 400;
   padding-top: 20px;
 }
 
@@ -146,16 +150,27 @@ body {
 
 .grey-background {
   background-color: rgb(246, 246, 246);
-  margin-top: 100px;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 /* Fourth section styling */
+
+.bottom-row-text {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.bottom-row-subheading {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
 .bottom-flex {
   padding: 100px;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 .bottom-flex img {
@@ -168,18 +183,19 @@ body {
 }
 
 .text-above-cta a {
-  font-size: 30px;
-  padding: 10px;
+  font-size: 20px;
+  padding: 20px;
   text-decoration: none;
   background-color: rgb(114, 137, 218);
   color: white;
-  border-radius: 25px;
+  border-radius: 35px;
 }
 
 .text-above-cta {
   text-align: center;
   padding-bottom: 150px;
 }
+
 
 /* Footer styling */
 footer {
