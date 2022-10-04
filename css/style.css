@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .align-center {
   width: 70%;
   margin: auto;
