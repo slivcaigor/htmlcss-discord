@@ -125,7 +125,7 @@ body {
 .content-row {
   display: flex;
   flex-direction: row;
-  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .content-text-container {
@@ -155,7 +155,15 @@ body {
 .grey-background {
   background-color: rgb(246, 246, 246);
   text-align: center;
-  padding-bottom: 100px;
+}
+
+/* waves */
+.wave-bottom {
+  fill: rgb(246, 246, 246);
+}
+
+.wave-top {
+  fill: white;
 }
 
 /* Fourth section styling */
