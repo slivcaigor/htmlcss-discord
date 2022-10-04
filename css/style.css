@@ -16,12 +16,14 @@ body {
 
 /* Header Section Styling */
 .header-bg {
-  background-color: rgb(37, 94, 233);
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  height: 650px;
 }
 
 /* Main Nav Styling */
 #logo {
-  width: 100px;
+  width: 100%;
 }
 
 #login {
@@ -29,7 +31,7 @@ body {
   color: black;
   padding: 10px;
   border-radius: 25px;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -40,12 +42,12 @@ body {
 .main-menu li a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .main-menu {
   display: flex;
-  min-width: 600px;
+  min-width: 500px;
   justify-content: space-between;
 }
 
@@ -62,11 +64,11 @@ body {
 .hero-text {
   width: 60%;
   justify-content: center;
-  padding: 120px 0px 0px;
+  padding: 130px 0px 0px;
 }
 
 .hero-text h1 {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   text-align: center;
 }
@@ -76,13 +78,14 @@ body {
   font-size: 20px;
   padding-top: 30px;
   text-align: center;
+  line-height: 2rem;
 }
 
 /* Hero buttons styling */
 .cta-btn {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding: 10px 0;
 }
 
 .btn-download {
@@ -90,19 +93,20 @@ body {
   text-decoration: none;
   font-size: 20px;
   color: black;
-  padding: 20px;
-  margin: 20px;
+  padding: 15px 20px;
   border-radius: 30px;
+  margin: 10px;
 }
 
 .btn-browser-open {
   background-color: black;
   color: white;
-  padding: 20px;
   font-size: 20px;
   border: none;
+  padding: 15px 20px;
   border-radius: 30px;
-  margin: 20px;
+  margin: 10px;
+  text-decoration: none;
 }
 
 /* Hero text and buttons alignment */
